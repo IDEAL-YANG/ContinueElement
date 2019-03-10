@@ -14,16 +14,16 @@
 <script>
 export default {
   name: 'InputNumber',
-  data() {
+  data () {
     return {
-      num1:1,
-      num2:1,
-      num3:10,
-      num4:5
-    };
+      num1: 1,
+      num2: 1,
+      num3: 10,
+      num4: 5
+    }
   },
   methods: {
-    handleChange(value) {
+    handleChange (value) {
       console.log(value)
     }
   }

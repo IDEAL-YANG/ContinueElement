@@ -5,6 +5,7 @@ import InputNumberPage from './views/InputNumberPage'
 import SelectPage from './views/SelectPage'
 import CascaderPage from './views/CascaderPage'
 import SwitchPage from './views/SwitchPage'
+import SliderPage from '@/views/SliderPage'
 
 Vue.use(Router)
 
@@ -44,6 +45,11 @@ export default new Router({
       path: '/switch',
       name: 'switch',
       component: SwitchPage
+    },
+    {
+      path: '/slider',
+      name: 'slider',
+      component: SliderPage
     }
   ]
 })

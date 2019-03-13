@@ -6,7 +6,8 @@
       <router-link to="/inputnumber">InputNumber</router-link> |
       <router-link to="/select">Select</router-link> |
       <router-link to="/cascader">Cascader</router-link> |
-      <router-link to="/switch">Switch</router-link>
+      <router-link to="/switch">Switch</router-link> |
+      <router-link to="/slider">Slider</router-link>
     </div>
     <router-view/>
   </div>

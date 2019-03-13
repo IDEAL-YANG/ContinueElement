@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import InputNumberPage from './views/InputNumberPage'
+import SelectPage from './views/SelectPage'
 
 Vue.use(Router)
 
@@ -26,6 +27,11 @@ export default new Router({
       path: '/inputnumber',
       name: 'inputnumber',
       component: InputNumberPage
+    },
+    {
+      path: '/select',
+      name: 'select',
+      component: SelectPage
     }
   ]
 })

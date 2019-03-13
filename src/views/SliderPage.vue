@@ -6,14 +6,14 @@
 </template>
 
 <script>
-  import TempSlider from '@/components/Slider'
+import TempSlider from '@/components/Slider'
 
-  export default {
-    name: 'SliderPage',
-    components: {
-      TempSlider
-    }
+export default {
+  name: 'SliderPage',
+  components: {
+    TempSlider
   }
+}
 </script>
 
 <style scoped>

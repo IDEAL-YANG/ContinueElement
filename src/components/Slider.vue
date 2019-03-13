@@ -23,28 +23,28 @@
 </template>
 
 <script>
-  export default {
-    name: 'Slider',
-    data () {
-      return {
-        value1: 0,
-        value2: 50,
-        value3: 35,
-        value4: 66,
-        value5: 87,
-        value6: 10,
-        value7: 90,
-        value8: 10,
-        value9: [40,80],
-        value10: 30,
-      };
-    },
-    methods: {
-      formatterTips(val) {
-        return val/100
-      }
+export default {
+  name: 'Slider',
+  data () {
+    return {
+      value1: 0,
+      value2: 50,
+      value3: 35,
+      value4: 66,
+      value5: 87,
+      value6: 10,
+      value7: 90,
+      value8: 10,
+      value9: [40, 80],
+      value10: 30
+    }
+  },
+  methods: {
+    formatterTips (val) {
+      return val / 100
     }
   }
+}
 </script>
 
 <style scoped>

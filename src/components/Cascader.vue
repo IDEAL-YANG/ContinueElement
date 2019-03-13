@@ -244,7 +244,7 @@ export default {
       selectedOptions: [],
       selectedOptions2: [],
       selectedOptions3: [],
-      selectedOptions4: ['ziyuan','axure'],
+      selectedOptions4: ['ziyuan', 'axure'],
       customOptions: [
         {
           name: '江苏',
@@ -267,19 +267,19 @@ export default {
     handleChange (value) {
       console.log(value)
     },
-    handleItemChange(val) {
-      console.log('active item:', val);
+    handleItemChange (val) {
+      console.log('active item:', val)
       setTimeout(_ => {
         if (val.indexOf('江苏') > -1 && !this.customOptions[0].citys.length) {
           this.customOptions[0].citys = [{
             name: '南京'
-          }];
+          }]
         } else if (val.indexOf('浙江') > -1 && !this.customOptions[1].citys.length) {
           this.customOptions[1].citys = [{
             name: '杭州'
-          }];
+          }]
         }
-      }, 300);
+      }, 300)
     }
   }
 }

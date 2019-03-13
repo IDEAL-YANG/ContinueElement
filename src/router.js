@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import InputNumberPage from './views/InputNumberPage'
 import SelectPage from './views/SelectPage'
 import CascaderPage from './views/CascaderPage'
+import SwitchPage from './views/SwitchPage'
 
 Vue.use(Router)
 
@@ -38,6 +39,11 @@ export default new Router({
       path: '/cascader',
       name: 'cascader',
       component: CascaderPage
+    },
+    {
+      path: '/switch',
+      name: 'switch',
+      component: SwitchPage
     }
   ]
 })

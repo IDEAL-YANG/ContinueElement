@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Select</h1>
+    <h1>Select Trains</h1>
     <temp-select></temp-select>
   </div>
 </template>

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import InputNumberPage from './views/InputNumberPage'
 import SelectPage from './views/SelectPage'
+import CascaderPage from './views/CascaderPage'
 
 Vue.use(Router)
 
@@ -32,6 +33,11 @@ export default new Router({
       path: '/select',
       name: 'select',
       component: SelectPage
+    },
+    {
+      path: '/cascader',
+      name: 'cascader',
+      component: CascaderPage
     }
   ]
 })

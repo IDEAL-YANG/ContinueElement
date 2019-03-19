@@ -6,6 +6,7 @@ import SelectPage from './views/SelectPage'
 import CascaderPage from './views/CascaderPage'
 import SwitchPage from './views/SwitchPage'
 import SliderPage from '@/views/SliderPage'
+import TreeAndTagPage from '@/views/TreeAndTagPage'
 
 Vue.use(Router)
 
@@ -50,6 +51,11 @@ export default new Router({
       path: '/slider',
       name: 'slider',
       component: SliderPage
+    },
+    {
+      path: '/treeAndTag',
+      name: 'treeTag',
+      component: TreeAndTagPage
     }
   ]
 })
